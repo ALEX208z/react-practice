@@ -6,8 +6,8 @@ function App() {
   const [inputValue, setInputValue] = useState("");
 
   useEffect(() => {
-    // console.log("hellooo")
-    document.title = `You clicked ${count} times`
+    console.log("hello")
+    // document.title = `You clicked ${count} times`
   },[count])
 
   const countIncrement = () => {
