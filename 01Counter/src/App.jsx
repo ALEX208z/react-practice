@@ -11,7 +11,9 @@ function App() {
   },[count])
 
   const countIncrement = () => {
-    setCount(count + 1);
+    // setCount(count + 1);
+    setCount((prevCount) => prevCount + 1)
+    setCount((prevCount) => prevCount + 1)
   };
 
   const countDecrement = () => {
